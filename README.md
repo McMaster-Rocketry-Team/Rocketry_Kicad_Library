@@ -1,0 +1,3 @@
+# Rocketry Shared Kicad Library
+
+Instructions comming.....
