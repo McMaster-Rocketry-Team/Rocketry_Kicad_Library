@@ -1,0 +1,154 @@
+(footprint "2S_Battery_Holder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "B?"
+		(at -40.894 -23.114 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "921f1b0c-cdeb-4dd6-b600-cc08a0a27f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2S_Battery_Holder"
+		(at -35.306 -21.082 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1836ba45-83c6-43fb-9d72-df2394159052")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Rocketry_Manual:2S_Battery_Holder"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d902bf68-cfdf-46ff-b28d-054a413c2ecc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ede30ef8-9c47-41d4-8d19-3621d455dea1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2480cdcf-4878-45ca-ba1f-7941337dfedf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -39.55 -19.95)
+		(end 39.55 19.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a9468121-cf9c-4a66-9688-717189a373b1")
+	)
+	(fp_rect
+		(start -43 -19.95)
+		(end 43 19.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "24c3ff94-3b73-42b1-bfeb-dcb34bab827b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f98e16fa-d112-45b5-b78c-634e6b2b886f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -39.33 -12.75)
+		(size 7.34 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9d995f97-8ec9-4297-808d-67a418e3f8f4")
+	)
+	(pad "2" smd rect
+		(at -39.33 12.75)
+		(size 7.34 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c057842b-d215-498a-b09c-49ca8c4c09fe")
+	)
+	(pad "3" smd rect
+		(at 39.33 -12.75)
+		(size 7.34 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4cedfac8-bea2-4f35-8e18-e041fb313e24")
+	)
+	(pad "4" smd rect
+		(at 39.33 12.75)
+		(size 7.34 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c06e903f-458c-4b61-bc19-08c0fa24abab")
+	)
+	(pad "5" thru_hole rect
+		(at -27.7 0)
+		(size 6 6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01fd581a-02a4-41ee-a535-8bd4d7603fe4")
+	)
+	(pad "6" thru_hole rect
+		(at 27.7 0)
+		(size 6 6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96e66538-3d5c-410e-8ae5-f9a1082d0e7f")
+	)
+	(pad "7" smd circle
+		(at 35.9 17.4)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a04445f7-4127-4029-b56c-ff90072354b8")
+	)
+)
