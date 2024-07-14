@@ -5,15 +5,15 @@
 
 ## Installing the Library
 
-1. Clone the repo
+1. Clone the repo 
 2. KiCad -> Preferences -> Configure Paths
    1. Add Name: `ROCKETRY_LIBRARY`, Path: `<Path of the cloned repo>`
 3. KiCad -> Preferences -> Manage Symbol Libraries
-   1. Add Nickname: `Rocketry_Easyeda`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Easyeda.kicad_sym`
-   2. Add Nickname: `Rocketry_Manual`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Manual.kicad_sym`
+   1. Add Nickname: `Rocketry_Easyeda`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Easyeda.kicad_sym` (copy and paste this exactly)
+   2. Add Nickname: `Rocketry_Manual`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Manual.kicad_sym` (copy and paste this exactly)
 4. KiCad -> Preferences -> Manage Footprint Libraries
-   1. Add Nickname: `Rocketry_Easyeda`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Easyeda.pretty`
-   2. Add Nickname: `Rocketry_Manual`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Manual.pretty`
+   1. Add Nickname: `Rocketry_Easyeda`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Easyeda.pretty` (copy and paste this exactly)
+   2. Add Nickname: `Rocketry_Manual`, Library Path: `${ROCKETRY_LIBRARY}/Rocketry_Manual.pretty` (copy and paste this exactly)
 
 ## Using [easyeda2kicad](https://pypi.org/project/easyeda2kicad/)
 
