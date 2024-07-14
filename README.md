@@ -22,7 +22,7 @@ easyeda2kicad imports symbols and footprints from JLCPCB. (Note: before using ea
 2. Find the component you want to use on https://jlcpcb.com/parts/
 3. Run in the shell:
    ```sh
-   easyeda2kicad --output <Path of the cloned repo> --symbol --footprint --lcsc_id=<Component ID, starts with C>
+   easyeda2kicad --output <Path of the cloned repo>/Rocketry_Easyeda --symbol --footprint --lcsc_id=<Component ID, starts with C>
    ```
 
 ## Manually Import Symbols and Footprints
