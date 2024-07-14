@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rocketry_Manual:2S_Battery_Holder"
+		(property "Footprint" "Rocketry_Manual:BAT_1048P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52,7 +52,7 @@
 		(symbol "2S_Battery_Holder_0_1"
 			(rectangle
 				(start -1.27 -1.27)
-				(end 7.62 -16.51)
+				(end 7.62 -13.97)
 				(stroke
 					(width 0)
 					(type default)
