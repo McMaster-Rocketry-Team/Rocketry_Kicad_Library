@@ -25,6 +25,8 @@ easyeda2kicad imports symbols and footprints from JLCPCB. (Note: before using ea
    ```sh
    easyeda2kicad --output <Path of the cloned repo>/Rocketry_Easyeda --symbol --footprint --lcsc_id=<Component ID, starts with C>
    ```
+4. When importing JLC "basic" resistors and capacitors, rename the symbol in Kicad to the following format: "Part_number (size value)", eg "C14N3 (0603 120uF)".
+   This keeps our component library easy to search!
 
 ## Manually Import Symbols and Footprints
 
