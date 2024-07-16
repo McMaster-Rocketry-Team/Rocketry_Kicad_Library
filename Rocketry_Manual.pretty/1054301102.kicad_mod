@@ -284,7 +284,7 @@
 		(layers "F.Cu" "F.Paste")
 		(uuid "c4e5fd30-2f94-4c68-ba76-d4c5d667041a")
 	)
-	(model "${KIPRJMOD}/components/extern/3dmodels/Molex/1054301102.step"
+	(model "${ROCKETRY_LIBRARY}/Rocketry_Kicad_Library/Rocketry_Manual.3dshapes/1054302102.step"
 		(offset
 			(xyz 0 0 1.905)
 		)

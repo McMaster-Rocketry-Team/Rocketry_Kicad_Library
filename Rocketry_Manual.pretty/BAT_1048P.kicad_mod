@@ -531,4 +531,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "16b94b21-a774-4941-9bfe-abe82fdcdfe7")
 	)
+	(model "${ROCKETRY_LIBRARY}/Rocketry_Kicad_Library/Rocketry_Manual.3dshapes/1048P.step"
+		(offset
+			(xyz 0 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
