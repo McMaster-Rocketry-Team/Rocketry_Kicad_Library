@@ -302,4 +302,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "95c30c7b-30d5-4603-b0a8-caff82b83a0d")
 	)
+	(model "${ROCKETRY_LIBRARY}/Rocketry_Kicad_Library/Rocketry_Manual.3dshapes/EVQ-P7A01P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
