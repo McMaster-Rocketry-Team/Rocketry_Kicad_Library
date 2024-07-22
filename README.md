@@ -50,6 +50,10 @@ We need to merge the downloaded `*.kicad_sym` file with the existing `Rocketry_M
 1. Install a tool by running `pip install merge-kicad-sym` in the shell
 2. Run in the shell `merge-kicad-sym --overwrite-footprint-lib-name Rocketry_Manual <Path of the cloned repo>/Rocketry_Manual.kicad_sym <path of downloaded .kicad_sym>`
 
+## Manually Create Symbols and Footprints
+
+Just follow the usual steps to create symbols and footprints in the "Rocketry_Manual" libraries.
+
 ## Notes on Git
 
 Remember to commit, push and pull!
