@@ -93,15 +93,13 @@
 		(at 0 0)
 		(size 6.5 6.5)
 		(drill 4.3)
-		(layers "F&B.Cu" "*.Paste" "*.Mask")
-		(solder_mask_margin -1)
-		(clearance -1)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "7be95409-ac94-4836-8e33-e19d71b67bd0")
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 7.5 7.5)
-		(layers "*.Paste" "*.Mask" "F.Cu")
+		(size 10 10)
+		(layers "*.Mask" "F.Cu")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -117,8 +115,8 @@
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 7.5 7.5)
-		(layers "*.Paste" "*.Mask" "B.Cu")
+		(size 10 10)
+		(layers "*.Mask" "B.Cu")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
