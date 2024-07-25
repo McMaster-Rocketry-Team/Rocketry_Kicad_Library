@@ -69,7 +69,7 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
-		(end 3.75 0)
+		(end 5 0)
 		(stroke
 			(width 0.15)
 			(type solid)
