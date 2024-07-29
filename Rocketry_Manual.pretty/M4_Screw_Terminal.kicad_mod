@@ -1,0 +1,133 @@
+(footprint "M4_Screw_Terminal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "M4_Screw_Terminal")
+	(tags "mounting hole 4.3mm m4 din965")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "ad70758d-8ef1-4296-80f8-02d2b7a53342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M4_Screw_Terminal"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "ce4fcbd3-d1df-4a08-a39d-501eb4fe9c9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d3af447-3ac9-42f1-b7b4-7ac378136f34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bbf8fc5-11ec-4693-9b13-ca7a9701b6ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46f0f9ef-d0ee-48bd-942f-deab391035df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "51edeb43-5b03-4041-9fa4-eec7883d1e94")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "02a3a233-edac-43df-a0cb-c1dd7cab69d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6.5 6.5)
+		(drill 4.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7be95409-ac94-4836-8e33-e19d71b67bd0")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 10 10)
+		(layers "*.Mask" "F.Cu")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b84c5f6d-fd8c-4927-bda8-1b60e67cf6e4")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 10 10)
+		(layers "*.Mask" "B.Cu")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d6cb42d3-a4bc-4b4b-8d76-88414a45cb0a")
+	)
+)
