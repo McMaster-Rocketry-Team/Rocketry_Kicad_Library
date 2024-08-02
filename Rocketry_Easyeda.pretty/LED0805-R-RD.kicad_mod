@@ -1,33 +1,240 @@
-(module easyeda2kicad:LED0805-R-RD (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "LED0805-R-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "e98582f3-2f3b-43ea-8d2f-a5a8edeb505e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED0805-R-RD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "c40366fd-32e7-4074-942f-42d7a3996aa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7c28fce-3c4c-46eb-a96a-1f40bead0557")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58c977af-4c59-4920-b373-658d260ef2f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a102ff5-d249-480a-a60e-c6b3b53211de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.22 -0.64)
+		(end -1.84 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c9ce934-3e18-4c87-816d-551c1208be6f")
 	)
-	(fp_text value LED0805-R-RD (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.22 0.63)
+		(end -2.22 -0.64)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92c22231-7d10-4aa6-a8d3-136ec54df8bd")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.84 -1.02)
+		(end -0.32 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7f8f3b3-689b-4f59-a389-817c3a508a8a")
 	)
-	(fp_line (start 0.20 -0.50) (end -0.20 -0.10) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.20 -0.10) (end -0.30 0.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.30 0.00) (end -0.20 0.10) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.20 0.10) (end 0.20 0.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.20 -0.50) (end 0.20 0.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.45 1.02) (end 2.00 1.02) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.00 1.02) (end 2.00 -1.02) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.00 -1.02) (end 0.45 -1.02) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.34 1.04) (end -1.81 1.04) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.81 1.04) (end -2.22 0.63) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.22 0.63) (end -2.22 -0.64) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.22 -0.64) (end -1.84 -1.02) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.84 -1.02) (end -0.32 -1.02) (layer F.SilkS) (width 0.25))
-	(pad 2 smd rect (at -1.05 0.00 180.00) (size 1.00 1.40) (layers F.Cu F.Paste F.Mask))
-	(pad 1 smd rect (at 1.05 0.00 180.00) (size 1.00 1.40) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center 1.00 -0.63) (end 1.03 -0.63) (layer F.Fab) (width 0.06))
-	(model "D:/DOCUMENTS backup/KiCadProjects/KiCadRocketryLIB/Rocketry_Kicad_Library/Rocketry_Easyeda.3dshapes/LED0805-RD.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start -1.81 1.04)
+		(end -2.22 0.63)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44617488-ed00-46cd-a8a1-7b588054e25f")
+	)
+	(fp_line
+		(start -0.34 1.04)
+		(end -1.81 1.04)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9f37c88-f24c-42e5-8bfa-0fc9decd1a6d")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end -0.2 0.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0545e0ac-4ded-450e-9009-3de187080985")
+	)
+	(fp_line
+		(start -0.2 -0.1)
+		(end -0.3 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67d1914a-8b00-4c00-9d79-bbef39d48aa3")
+	)
+	(fp_line
+		(start -0.2 0.1)
+		(end 0.2 0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83e53020-a18b-4621-ba5c-69fb6236f1f7")
+	)
+	(fp_line
+		(start 0.2 -0.5)
+		(end -0.2 -0.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6094a531-0816-4a01-bede-211d6c1ce2ce")
+	)
+	(fp_line
+		(start 0.2 -0.5)
+		(end 0.2 0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "946e39a0-b40d-4612-9830-871ab8cb7aca")
+	)
+	(fp_line
+		(start 0.45 1.02)
+		(end 2 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66dc880f-5356-4d88-9d6c-e0feaa912569")
+	)
+	(fp_line
+		(start 2 -1.02)
+		(end 0.45 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cee2ea0d-6205-4a49-81f6-63023aa769f9")
+	)
+	(fp_line
+		(start 2 1.02)
+		(end 2 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e41de87-b4b6-4476-ba75-ba67f3b9a82c")
+	)
+	(fp_circle
+		(center 1 -0.63)
+		(end 1.03 -0.63)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3acc39e9-9a5a-49aa-89ed-f3d73b1b4070")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "58a59d58-3190-4b8c-8082-230a43a501e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.05 0 180)
+		(size 1 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ed37f18c-84c4-407f-be25-a76cd640fa40")
+	)
+	(pad "2" smd rect
+		(at -1.05 0 180)
+		(size 1 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "728c2731-3e7f-4a62-a3ea-b0df671d7d86")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
