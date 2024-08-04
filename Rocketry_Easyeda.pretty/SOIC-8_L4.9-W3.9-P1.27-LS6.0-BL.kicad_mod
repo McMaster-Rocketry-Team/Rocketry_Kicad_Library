@@ -1,33 +1,219 @@
-(module easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.77 0)
+		(layer "F.SilkS")
+		(uuid "26526542-3928-4dea-9748-703e83c24f5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(at 0 6.77 0)
+		(layer "F.Fab")
+		(uuid "8577b7c7-a04d-44d8-ba39-1e428bfbc2d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32dd6181-d6a6-4962-aba6-4d954e772bf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdcb67fd-d3ca-4802-b94d-4b93eb65ed07")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29b2b730-05ce-4ed8-9261-4eb4e9f27af3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -6.77) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.53 -1.52)
+		(end 2.53 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef290c4d-6c7e-4024-9a6c-68102eb87fae")
 	)
-	(fp_text value SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL (at 0 6.77) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.53 1.52)
+		(end -2.53 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2315f172-2c66-4bf8-8b7c-74b800c6d602")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start 2.53 -1.52)
+		(end 2.53 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "827bb296-26a1-4d7e-88b7-d555b14cb151")
 	)
-	(fp_line (start -2.53 1.52) (end -2.53 -1.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start -2.53 -1.52) (end 2.53 -1.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start 2.53 -1.52) (end 2.53 1.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start 2.53 1.52) (end -2.53 1.52) (layer F.SilkS) (width 0.15))
-	(pad 1 smd oval (at -1.91 2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd oval (at -0.63 2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 3 smd oval (at 0.63 2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 4 smd oval (at 1.90 2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 8 smd oval (at -1.91 -2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 7 smd oval (at -0.63 -2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 6 smd oval (at 0.63 -2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(pad 5 smd oval (at 1.90 -2.77 0.00) (size 0.59 2.05) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -1.91 0.77) (end -1.76 0.77) (layer F.SilkS) (width 0.30))
-	(fp_circle (center -2.65 2.77) (end -2.50 2.77) (layer F.SilkS) (width 0.30))
-	(fp_circle (center -1.91 3.40) (end -1.76 3.40) (layer Cmts.User) (width 0.30))
-	(fp_circle (center -2.45 3.00) (end -2.42 3.00) (layer F.Fab) (width 0.06))
-	(model "D:/DOCUMENTS backup/KiCadProjects/KiCadRocketryLIB/Rocketry_Kicad_Library/Rocketry_Easyeda.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
-		(offset (xyz 1.650 -2.840 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start 2.53 1.52)
+		(end -2.53 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc86b7bf-4901-4403-8d7f-9917a3478842")
+	)
+	(fp_circle
+		(center -2.65 2.77)
+		(end -2.5 2.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "abe6daba-d474-4b18-b25e-546a57257b02")
+	)
+	(fp_circle
+		(center -1.91 0.77)
+		(end -1.76 0.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "35069c56-aeba-403d-a5af-b49918bae1ba")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "3561dc88-cafa-4821-bf5d-31ab02ccdde7")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "14ac3c28-88ea-4133-93f2-3128cc3eacb3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c09cc6c6-ef3c-4bc3-aedb-4a094b25e4d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "41c58750-fe46-4d85-b90f-e00ceb511ca0")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5453188a-c203-42a8-81b5-0278b36cf24b")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1e20a83f-548b-4903-a3ab-7c48fce470e0")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "520bc237-f03c-460b-a705-2e606b47eed1")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d5bb5d87-f768-44a8-8278-b698632ea368")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2890d08f-a513-44a0-8e86-6e37b9c004d1")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6d0faf5-3e54-4c10-8042-8ea280c07267")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.77)
+		(size 0.59 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f41d0703-b520-45b5-9422-e0d8fcb57cd2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
 	)
 )
