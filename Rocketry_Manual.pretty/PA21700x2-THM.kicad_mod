@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Holder for two 21700 batteries")
 	(property "Reference" "BT*"
-		(at 0 -0.5 0)
+		(at 1.5 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4d005cc7-52ea-4bde-b3e9-e3ebdbd823ed")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "PA21700*2-THM"
-		(at 0 1 0)
+		(at 6.5 -5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e81826a1-54b9-4fb5-a426-5b78f5e66de8")
@@ -241,7 +241,7 @@
 		(uuid "fe86896d-e801-449e-af1e-312e71f24d04")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 5.5 -3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1e6ac985-7d15-45b9-b3b9-701a94896cef")
