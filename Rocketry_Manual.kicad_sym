@@ -54,24 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "1053091102"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "CON_1053091102"
 			(at 0 0 0)
 			(effects
 				(font
@@ -449,24 +432,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "1053131102"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "CON_1053131102"
 			(at 0 0 0)
 			(effects
 				(font
