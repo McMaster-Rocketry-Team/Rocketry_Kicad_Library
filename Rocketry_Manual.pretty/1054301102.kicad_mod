@@ -282,13 +282,13 @@
 	)
 	(model "${ROCKETRY_LIBRARY}/Rocketry_Kicad_Library/Rocketry_Manual.3dshapes/1054302102.step"
 		(offset
-			(xyz 0 0 1.905)
+			(xyz 0 1 1.905)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 0 180)
 		)
 	)
 )
