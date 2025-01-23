@@ -20356,7 +20356,6 @@
 			)
 		)
 	)
-<<<<<<< HEAD
 
   (symbol "LM73100RPWR"
     (in_bom yes)
@@ -20560,9 +20559,6 @@
     )
   )
 )
-=======
-)
->>>>>>> 92bc039f43e8c40c5ca3def4389ea02812e4b35f
   (symbol "FRC0805F1243TS"
     (in_bom yes)
     (on_board yes)
@@ -20894,5 +20890,4 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
-  )
 )
