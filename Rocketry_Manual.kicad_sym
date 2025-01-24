@@ -4068,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rocketry_Manual:RLB1314-102KL (THT 10mH)"
+		(property "Footprint" "Rocketry_Manual:RLB1314-102KL (THT 1mH)"
 			(at 0.635 -5.715 0)
 			(effects
 				(font
