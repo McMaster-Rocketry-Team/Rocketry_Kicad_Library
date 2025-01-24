@@ -1,4 +1,4 @@
-(footprint "RLB1314-102KL (THT 10mH)"
+(footprint "RLB1314-102KL (THT 1mH)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RLB1314-102KL (THT 10mH)"
+	(property "Value" "RLB1314-102KL (THT 1mH)"
 		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.Fab")

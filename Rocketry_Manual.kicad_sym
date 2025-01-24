@@ -4045,7 +4045,7 @@
 			)
 		)
 	)
-	(symbol "RLB1314-102KL (THT 10mH)"
+	(symbol "RLB1314-102KL (THT 1mH)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -4060,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Value" "RLB1314-102KL (THT 10mH)"
+		(property "Value" "RLB1314-102KL (THT 1mH)"
 			(at 1.27 -3.175 0)
 			(effects
 				(font
@@ -4113,7 +4113,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RLB1314-102KL (THT 10mH)_0_1"
+		(symbol "RLB1314-102KL (THT 1mH)_0_1"
 			(arc
 				(start -1.27 0)
 				(mid -1.905 0.6323)
@@ -4163,7 +4163,7 @@
 				)
 			)
 		)
-		(symbol "RLB1314-102KL (THT 10mH)_1_1"
+		(symbol "RLB1314-102KL (THT 1mH)_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 1.27)

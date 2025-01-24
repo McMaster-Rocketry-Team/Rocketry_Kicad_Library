@@ -2917,6 +2917,112 @@
 			)
 		)
 	)
+	(symbol "0805W8F1403T5E (0805 140k)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805W8F1403T5E (0805 140k)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:R0805"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_140KR-1403-1_C17460.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17460"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0805W8F1403T5E (0805 140k)_0_1"
+			(rectangle
+				(start -2.54 1.02)
+				(end 2.54 -1.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "19-213_Y2C-CQ2R2L_3T(CY) (0603 Yellow)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3194,6 +3300,286 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1N4148W_C81598"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W_C81598"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:SOD-123F_L2.7-W1.6-LS3.8-RD"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Switching-Diode_1N4148W_C81598.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C81598"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1N4148W_C81598_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.52) (xy -1.27 1.52)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.52) (xy 1.27 1.52)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 3.81)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "2N5551BU"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N5551BU"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:TO-92-3_L4.9-W3.7-P1.27-L"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_ON-Semiconductor-ON-2N5551BU_C719767.html"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C719767"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2N5551BU_0_1"
+			(polyline
+				(pts
+					(xy 0 -0.76) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.29) (xy 0 -2.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 0 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 1.78 -1.27) (xy 1.02 -2.29) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4506,6 +4892,255 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AC1210FR-071K43L (1210 1.43k)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC1210FR-071K43L (1210 1.43k)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:R1210"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-AC1210FR-071K43L_C230079.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C230079"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AC1210FR-071K43L (1210 1.43k)_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AIAP-03-103K (THT 10mH)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AIAP-03-103K (THT 10mH)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:IND-TH_BD11.4-L22.9-P26.90-D0.8"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Abracon-LLC_AIAP-03-103K_Abracon-LLC-AIAP-03-103K_C186791.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C186791"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AIAP-03-103K (THT 10mH)_0_1"
+			(arc
+				(start -4.29 -0.02)
+				(mid -2.81 -1.01)
+				(end -2.27 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.13 -0.02)
+				(mid -0.66 -1.01)
+				(end -0.11 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.02 -0.02)
+				(mid 1.49 -1.01)
+				(end 2.04 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.21 -0.02)
+				(mid 3.68 -1.01)
+				(end 4.23 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7819,6 +8454,149 @@
 			)
 		)
 	)
+	(symbol "CL21A106KAYNNNE (0805 10uF)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL21A106KAYNNNE (0805 10uF)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:C0805"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15850"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CL21A106KAYNNNE (0805 10uF)_0_1"
+			(polyline
+				(pts
+					(xy -0.51 -2.03) (xy -0.51 2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03) (xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "CL21A226MAQNNNE (22uF 0805)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8980,6 +9758,149 @@
 			)
 		)
 	)
+	(symbol "DSK320"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DSK320"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:SOD-123_L2.7-W1.8-LS3.7-RD"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5290222"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DSK320_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.78 1.27) (xy -1.78 1.78) (xy -1.27 1.78) (xy -1.27 -1.78) (xy -0.76 -1.78) (xy -0.76 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "FM-3510RGBA-SG"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9554,6 +10475,112 @@
 			)
 		)
 	)
+	(symbol "FRC0805F1243TS (0805 124k)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRC0805F1243TS (0805 124k)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:R0805"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2933298"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FRC0805F1243TS (0805 124k)_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "FRM121WFR020TM (20m 1206)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10107,6 +11134,149 @@
 			)
 			(pin input line
 				(at 5.08 -1.27 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GRM2195C1H103FA01D (0805 0.01uF)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GRM2195C1H103FA01D (0805 0.01uF)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:C0805"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM2195C1H103FA01D_C441760.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C441760"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GRM2195C1H103FA01D (0805 0.01uF)_0_1"
+			(polyline
+				(pts
+					(xy -0.51 -2.03) (xy -0.51 2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03) (xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -12573,7 +13743,7 @@
 			)
 		)
 		(property "Value" "LM73100RPWR"
-			(at 0 -24.384 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +13751,7 @@
 			)
 		)
 		(property "Footprint" "Rocketry_Easyeda:VQFN-10_L2.0-W2.0-P0.45-TL"
-			(at 0 -26.924 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12608,7 +13778,7 @@
 			)
 		)
 		(property "LCSC Part" "C3210761"
-			(at 0 -29.464 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +13810,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 0 0)
+				(at -13.97 5.08 0)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -12658,7 +13828,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -5.08 180)
+				(at 13.97 5.08 180)
 				(length 2.54)
 				(name "DNC"
 					(effects
@@ -12676,7 +13846,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -2.54 0)
+				(at -13.97 2.54 0)
 				(length 2.54)
 				(name "OVLO"
 					(effects
@@ -12694,7 +13864,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -2.54 180)
+				(at -13.97 0 0)
 				(length 2.54)
 				(name "PG"
 					(effects
@@ -12712,7 +13882,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 0 180)
+				(at -13.97 -2.54 0)
 				(length 2.54)
 				(name "PGTH"
 					(effects
@@ -12730,7 +13900,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 2.54 0)
+				(at -13.97 -5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -12748,7 +13918,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 2.54 180)
+				(at 13.97 -5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -12766,7 +13936,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -10.16 90)
+				(at 13.97 -2.54 180)
 				(length 2.54)
 				(name "DVDT"
 					(effects
@@ -12784,7 +13954,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -10.16 90)
+				(at 13.97 0 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -12802,7 +13972,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 2.54 -10.16 90)
+				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "IMON"
 					(effects
@@ -13548,6 +14718,218 @@
 				)
 			)
 			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MFR-25FTE52-10K"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MFR-25FTE52-10K"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:RES-TH_BD2.4-L6.3-P10.30-D0.6"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Metal-Film-Resistor-TH_YAGEO-MFR-25FTE52-10K_C172967.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C172967"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MFR-25FTE52-10K_0_1"
+			(rectangle
+				(start -2.54 1.02)
+				(end 2.54 -1.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MFR0W4F1001A50 (THT 1K)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MFR0W4F1001A50 (THT 1K)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:RES-TH_BD2.5-L6.5-P10.50-D0.6"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Metal-Film-Resistor-TH_1KR-1001-1_C57435.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C57435"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MFR0W4F1001A50 (THT 1K)_0_1"
+			(rectangle
+				(start -2.54 1.02)
+				(end 2.54 -1.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
@@ -14545,6 +15927,220 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "NE555DR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE555DR"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Timer_TI_NE555DR_NE555DR_C7593.html"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7593"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NE555DR_0_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "TRIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 12.7 270)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "CONT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "THRES"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "DISCH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15602,6 +17198,112 @@
 			)
 		)
 	)
+	(symbol "SCR0805F13K7 (0805 13.7k)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCR0805F13K7 (0805 13.7k)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:R0805"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3016934"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SCR0805F13K7 (0805 13.7k)_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "SI7232DN-T1-GE3"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15829,6 +17531,112 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SP3AJT10R0 (THT 10ohm)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP3AJT10R0 (THT 10ohm)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:RES-TH_BD5.6-L13.1-P17.10-D1.0"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2585252"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SP3AJT10R0 (THT 10ohm)_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20356,1385 +22164,4 @@
 			)
 		)
 	)
-
-  	(symbol "LM73100RPWR"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"U"
-      		(id 0)
-      		(at 0 10.16 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"LM73100RPWR"
-      		(id 1)
-      		(at 0 -10.16 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:VQFN-10_L2.0-W2.0-P0.45-TL"
-      		(id 2)
-      		(at 0 -12.70 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C3210761"
-      		(id 5)
-      		(at 0 -15.24 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-		)
-		(symbol "LM73100RPWR_0_1"
-			(rectangle
-				(start -11.43 7.62)
-				(end 11.43 -7.62)
-				(stroke (width 0) (type default) (color 0 0 0 0))
-				(fill (type background))
-			)
-			(circle
-				(center -10.16 6.35)
-				(radius 0.38)
-				(stroke (width 0) (type default) (color 0 0 0 0))
-				(fill (type none))
-			)
-			(pin unspecified line
-				(at -13.97 5.08 0)
-				(length 2.54)
-				(name "EN/UVLO" (effects (font (size 1.27 1.27))))
-				(number "1" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at -13.97 2.54 0)
-				(length 2.54)
-				(name "OVLO" (effects (font (size 1.27 1.27))))
-				(number "2" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at -13.97 -0.00 0)
-				(length 2.54)
-				(name "PG" (effects (font (size 1.27 1.27))))
-				(number "3" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at -13.97 -2.54 0)
-				(length 2.54)
-				(name "PGTH" (effects (font (size 1.27 1.27))))
-				(number "4" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at -13.97 -5.08 0)
-				(length 2.54)
-				(name "IN" (effects (font (size 1.27 1.27))))
-				(number "5" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at 13.97 -5.08 180)
-				(length 2.54)
-				(name "OUT" (effects (font (size 1.27 1.27))))
-				(number "6" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at 13.97 -2.54 180)
-				(length 2.54)
-				(name "DVDT" (effects (font (size 1.27 1.27))))
-				(number "7" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at 13.97 -0.00 180)
-				(length 2.54)
-				(name "GND" (effects (font (size 1.27 1.27))))
-				(number "8" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at 13.97 2.54 180)
-				(length 2.54)
-				(name "IMON" (effects (font (size 1.27 1.27))))
-				(number "9" (effects (font (size 1.27 1.27))))
-			)
-			(pin unspecified line
-				(at 13.97 5.08 180)
-				(length 2.54)
-				(name "DNC" (effects (font (size 1.27 1.27))))
-				(number "10" (effects (font (size 1.27 1.27))))
-			)
-		)
-	)
-  	(symbol "NE555DR"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"U"
-      		(id 0)
-      		(at 0 17.78 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"NE555DR"
-      		(id 1)
-      		(at 0 -17.78 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-      		(id 2)
-      		(at 0 -20.32 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"Datasheet"
-      		"https://lcsc.com/product-detail/Timer_TI_NE555DR_NE555DR_C7593.html"
-      		(id 3)
-      		(at 0 -22.86 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C7593"
-      		(id 5)
-      		(at 0 -25.40 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(symbol "NE555DR_0_1"
-      		(rectangle
-        		(start -7.62 10.16)
-        		(end 7.62 -10.16)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type background))
-      		)
-      		(pin unspecified line
-        		(at -2.54 12.70 270)
-        		(length 2.54)
-        		(name "VCC" (effects (font (size 1.27 1.27))))
-        		(number "8" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at -10.16 3.81 0)
-        		(length 2.54)
-        		(name "DISCH" (effects (font (size 1.27 1.27))))
-        		(number "7" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at -10.16 -3.81 0)
-        		(length 2.54)
-        		(name "THRES" (effects (font (size 1.27 1.27))))
-        		(number "6" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at 10.16 -2.54 180)
-        		(length 2.54)
-        		(name "CONT" (effects (font (size 1.27 1.27))))
-        		(number "5" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at 2.54 12.70 270)
-        		(length 2.54)
-        		(name "RST" (effects (font (size 1.27 1.27))))
-        		(number "4" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at 10.16 2.54 180)
-        		(length 2.54)
-        		(name "OUT" (effects (font (size 1.27 1.27))))
-        		(number "3" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at -10.16 -0.00 0)
-        		(length 2.54)
-        		(name "TRIG" (effects (font (size 1.27 1.27))))
-        		(number "2" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at 0.00 -12.70 90)
-        		(length 2.54)
-        		(name "GND" (effects (font (size 1.27 1.27))))
-        		(number "1" (effects (font (size 1.27 1.27))))
-      		)
-    	)
-  	)
-  	(symbol "FRC0805F1243TS"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"R"
-      		(id 0)
-      		(at 0 5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"FRC0805F1243TS"
-      		(id 1)
-      		(at 0 -5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:R0805"
-      		(id 2)
-      		(at 0 -7.62 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C2933298"
-      		(id 5)
-      		(at 0 -10.16 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(symbol "FRC0805F1243TS_0_1"
-      		(rectangle
-        		(start -2.54 1.27)
-        		(end 2.54 -1.27)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type background))
-      		)
-      		(pin unspecified line
-        		(at 5.08 -0.00 180)
-        		(length 2.54)
-        		(name "2" (effects (font (size 1.27 1.27))))
-        		(number "2" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at -5.08 -0.00 0)
-        		(length 2.54)
-        		(name "1" (effects (font (size 1.27 1.27))))
-        		(number "1" (effects (font (size 1.27 1.27))))
-      		)
-    	)
-  	)
-  	(symbol "0805W8F1403T5E"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"R"
-      		(id 0)
-      		(at 0 5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"0805W8F1403T5E"
-      		(id 1)
-      		(at 0 -5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:R0805"
-      		(id 2)
-      		(at 0 -7.62 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"Datasheet"
-      		"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_140KR-1403-1_C17460.html"
-      		(id 3)
-      		(at 0 -10.16 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C17460"
-      		(id 5)
-      		(at 0 -12.70 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(symbol "0805W8F1403T5E_0_1"
-      		(rectangle
-        		(start -2.54 1.02)
-        		(end 2.54 -1.02)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type background))
-      		)
-      		(pin input line
-        		(at 5.08 -0.00 180)
-        		(length 2.54)
-        		(name "2" (effects (font (size 1.27 1.27))))
-        		(number "2" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin input line
-        		(at -5.08 -0.00 0)
-        		(length 2.54)
-        		(name "1" (effects (font (size 1.27 1.27))))
-        		(number "1" (effects (font (size 1.27 1.27))))
-      		)
-    	)
-  	)
-  	(symbol "CL21A106KAYNNNE"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"C"
-      		(id 0)
-      		(at 0 5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"CL21A106KAYNNNE"
-      		(id 1)
-      		(at 0 -5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:C0805"
-      		(id 2)
-      		(at 0 -7.62 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"Datasheet"
-      		"https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html"
-      		(id 3)
-      		(at 0 -10.16 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C15850"
-      		(id 5)
-      		(at 0 -12.70 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(symbol "CL21A106KAYNNNE_0_1"
-      		(polyline
-        		(pts
-          			(xy -0.51 -0.00) (xy -2.54 -0.00)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(polyline
-        		(pts
-          			(xy 0.51 2.03) (xy 0.51 -2.03)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(polyline
-        		(pts
-          			(xy 2.54 -0.00) (xy 0.51 -0.00)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(polyline
-        		(pts
-          			(xy -0.51 -2.03) (xy -0.51 2.03)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(pin unspecified line
-        		(at 5.08 -0.00 180)
-        		(length 2.54)
-        		(name "2" (effects (font (size 1.27 1.27))))
-        		(number "2" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at -5.08 -0.00 0)
-        		(length 2.54)
-        		(name "1" (effects (font (size 1.27 1.27))))
-        		(number "1" (effects (font (size 1.27 1.27))))
-      		)
-    	)
-  	)
-  	(symbol "GRM2195C1H103FA01D"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"C"
-      		(id 0)
-      		(at 0 5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"GRM2195C1H103FA01D"
-      		(id 1)
-      		(at 0 -5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:C0805"
-      		(id 2)
-      		(at 0 -7.62 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"Datasheet"
-      		"https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM2195C1H103FA01D_C441760.html"
-      		(id 3)
-      		(at 0 -10.16 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C441760"
-      		(id 5)
-      		(at 0 -12.70 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(symbol "GRM2195C1H103FA01D_0_1"
-      		(polyline
-        		(pts
-          			(xy -0.51 -2.03) (xy -0.51 2.03)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(polyline
-        		(pts
-          			(xy 2.54 -0.00) (xy 0.51 -0.00)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(polyline
-        		(pts
-          			(xy 0.51 2.03) (xy 0.51 -2.03)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(polyline
-        		(pts
-          			(xy -0.51 -0.00) (xy -2.54 -0.00)
-        		)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type none))
-      		)
-      		(pin unspecified line
-        		(at -5.08 -0.00 0)
-        		(length 2.54)
-        		(name "1" (effects (font (size 1.27 1.27))))
-        		(number "1" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at 5.08 -0.00 180)
-        		(length 2.54)
-        		(name "2" (effects (font (size 1.27 1.27))))
-        		(number "2" (effects (font (size 1.27 1.27))))
-      		)
-    	)
-  	)
-  	(symbol "MFR-25FTE52-10K"
-    	(in_bom yes)
-    	(on_board yes)
-    	(property
-      		"Reference"
-      		"R"
-      		(id 0)
-      		(at 0 5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Value"
-      		"MFR-25FTE52-10K"
-      		(id 1)
-      		(at 0 -5.08 0)
-      		(effects (font (size 1.27 1.27) ) )
-    	)
-    	(property
-      		"Footprint"
-      		"Rocketry_Easyeda:RES-TH_BD2.4-L6.3-P10.30-D0.6"
-      		(id 2)
-      		(at 0 -7.62 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"Datasheet"
-      		"https://lcsc.com/product-detail/Metal-Film-Resistor-TH_YAGEO-MFR-25FTE52-10K_C172967.html"
-      		(id 3)
-      		(at 0 -10.16 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(property
-      		"LCSC Part"
-      		"C172967"
-      		(id 5)
-      		(at 0 -12.70 0)
-      		(effects (font (size 1.27 1.27) ) hide)
-    	)
-    	(symbol "MFR-25FTE52-10K_0_1"
-      		(rectangle
-        		(start -2.54 1.02)
-        		(end 2.54 -1.02)
-        		(stroke (width 0) (type default) (color 0 0 0 0))
-        		(fill (type background))
-      		)
-      		(pin unspecified line
-        		(at 5.08 -0.00 180)
-        		(length 2.54)
-        		(name "2" (effects (font (size 1.27 1.27))))
-        		(number "2" (effects (font (size 1.27 1.27))))
-      		)
-      		(pin unspecified line
-        		(at -5.08 -0.00 0)
-        		(length 2.54)
-        		(name "1" (effects (font (size 1.27 1.27))))
-        		(number "1" (effects (font (size 1.27 1.27))))
-      		)
-    	)
-	)
-  (symbol "0805W8F1403T5E"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "R"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "0805W8F1403T5E"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:R0805"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_140KR-1403-1_C17460.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C17460"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "0805W8F1403T5E_0_1"
-      (rectangle
-        (start -2.54 1.02)
-        (end 2.54 -1.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin input line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CL21A106KAYNNNE"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "CL21A106KAYNNNE"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:C0805"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C15850"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL21A106KAYNNNE_0_1"
-      (polyline
-        (pts
-          (xy -0.51 -0.00) (xy -2.54 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -0.00) (xy 0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.51 -2.03) (xy -0.51 2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "AC1210FR-071K43L"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "R"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "AC1210FR-071K43L"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:R1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-AC1210FR-071K43L_C230079.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C230079"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "AC1210FR-071K43L_0_1"
-      (rectangle
-        (start -2.54 1.27)
-        (end 2.54 -1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "SCR0805F13K7"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "SCR0805F13K7"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:R0805"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C3016934"
-      (id 5)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "SCR0805F13K7_0_1"
-      (rectangle
-        (start -2.54 1.27)
-        (end 2.54 -1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "GRM2195C1H103FA01D"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "GRM2195C1H103FA01D"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:C0805"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM2195C1H103FA01D_C441760.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C441760"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "GRM2195C1H103FA01D_0_1"
-      (polyline
-        (pts
-          (xy -0.51 -2.03) (xy -0.51 2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -0.00) (xy 0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.51 -0.00) (xy -2.54 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MFR0W4F1001A50"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "R"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "MFR0W4F1001A50"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:RES-TH_BD2.5-L6.5-P10.50-D0.6"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Metal-Film-Resistor-TH_1KR-1001-1_C57435.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C57435"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "MFR0W4F1001A50_0_1"
-      (rectangle
-        (start -2.54 1.02)
-        (end 2.54 -1.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin input line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "SP3AJT10R0"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "SP3AJT10R0"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:RES-TH_BD5.6-L13.1-P17.10-D1.0"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C2585252"
-      (id 5)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "SP3AJT10R0_0_1"
-      (rectangle
-        (start -2.54 1.27)
-        (end 2.54 -1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "DSK320"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "DSK320"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:SOD-123_L2.7-W1.8-LS3.7-RD"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C5290222"
-      (id 5)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "DSK320_0_1"
-      (polyline
-        (pts
-          (xy 1.27 1.78) (xy -1.27 -0.00) (xy 1.27 -1.78) (xy 1.27 1.78)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -1.78 1.27) (xy -1.78 1.78) (xy -1.27 1.78) (xy -1.27 -1.78) (xy -0.76 -1.78) (xy -0.76 -1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -2.54 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "1N4148W_C81598"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "D"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "1N4148W_C81598"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:SOD-123F_L2.7-W1.6-LS3.8-RD"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Switching-Diode_1N4148W_C81598.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C81598"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "1N4148W_C81598_0_1"
-      (polyline
-        (pts
-          (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.52) (xy 1.27 1.52)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.52) (xy -1.27 1.52)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 3.81)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 3.81)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "2N5551BU"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "Q"
-      (id 0)
-      (at 0 10.16 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "2N5551BU"
-      (id 1)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:TO-92-3_L4.9-W3.7-P1.27-L"
-      (id 2)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Transistors-NPN-PNP_ON-Semiconductor-ON-2N5551BU_C719767.html"
-      (id 3)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C719767"
-      (id 5)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "2N5551BU_0_1"
-      (polyline
-        (pts
-          (xy 2.54 2.54) (xy 0.00 0.76)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.00 -0.76) (xy 2.54 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.00 2.29) (xy 0.00 -2.29)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54) (xy 1.78 -1.27) (xy 1.02 -2.29) (xy 2.54 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin input line
-        (at -2.54 -0.00 0)
-        (length 2.54)
-        (name "B" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 2.54 5.08 270)
-        (length 2.54)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 2.54 -5.08 90)
-        (length 2.54)
-        (name "E" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "NE555DR"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 17.78 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "NE555DR"
-      (id 1)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-      (id 2)
-      (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Timer_TI_NE555DR_NE555DR_C7593.html"
-      (id 3)
-      (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C7593"
-      (id 5)
-      (at 0 -25.40 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "NE555DR_0_1"
-      (rectangle
-        (start -7.62 10.16)
-        (end 7.62 -10.16)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at -2.54 12.70 270)
-        (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 3.81 0)
-        (length 2.54)
-        (name "DISCH" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 -3.81 0)
-        (length 2.54)
-        (name "THRES" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 -2.54 180)
-        (length 2.54)
-        (name "CONT" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 2.54 12.70 270)
-        (length 2.54)
-        (name "RST" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 2.54 180)
-        (length 2.54)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 -0.00 0)
-        (length 2.54)
-        (name "TRIG" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 0.00 -12.70 90)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "AIAP-03-103K"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "L"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "AIAP-03-103K"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Rocketry_Easyeda:IND-TH_BD11.4-L22.9-P26.90-D0.8"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Others_Abracon-LLC_AIAP-03-103K_Abracon-LLC-AIAP-03-103K_C186791.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C186791"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "AIAP-03-103K_0_1"
-      (arc
-        (start -4.29 -0.02)
-        (mid -2.81 -1.01)
-        (end -2.27 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc
-        (start -2.13 -0.02)
-        (mid -0.66 -1.01)
-        (end -0.11 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc
-        (start 0.02 -0.02)
-        (mid 1.49 -1.01)
-        (end 2.04 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc
-        (start 2.21 -0.02)
-        (mid 3.68 -1.01)
-        (end 4.23 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 0.762)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 0.762)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )
