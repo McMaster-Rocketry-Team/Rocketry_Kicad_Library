@@ -1,4 +1,4 @@
-(footprint "W3012-ANT-PKG"
+(footprint "W3012-ANT-PKG-Mirrored"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "W3012-ANT-PKG"
+	(property "Value" "W3012-ANT-PKG-Mirrored"
 		(at -6.485 -4.185 180)
 		(layer "F.Fab")
 		(uuid "128046a5-f43d-4868-adf9-3a5aa76f7cbc")
@@ -103,21 +103,21 @@
 		(uuid "51b3f5a7-73c4-4b1b-abcb-7e4e882af37b")
 	)
 	(pad "1" smd rect
-		(at 4.55 1.22)
+		(at -4.55 1.22)
 		(size 1.7 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "44494659-9a84-4f8c-9e8b-0076281c1b0d")
 	)
 	(pad "2" smd rect
-		(at 4.55 2.97)
+		(at -4.55 2.97)
 		(size 1.7 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "9c8c64f1-d131-4ca8-a68b-ad2cd4df6475")
 	)
 	(pad "3" smd rect
-		(at -4.55 2.1)
+		(at 4.55 2.1)
 		(size 1.7 3.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
@@ -147,9 +147,9 @@
 		)
 		(polygon
 			(pts
-				(xy -5.4 -4.13) (xy 5.4 -4.13) (xy 5.4 0.5) (xy 3.7 0.5) (xy 3.7 1.94) (xy 5.4 1.94) (xy 5.4 2.25)
-				(xy 3.7 2.25) (xy 3.7 3.69) (xy 5.4 3.69) (xy 5.4 4.13) (xy -5.4 4.13) (xy -5.4 3.7) (xy -3.7 3.7)
-				(xy -3.7 0.5) (xy -5.4 0.5)
+				(xy 5.4 -4.13) (xy -5.4 -4.13) (xy -5.4 0.5) (xy -3.7 0.5) (xy -3.7 1.94) (xy -5.4 1.94) (xy -5.4 2.25)
+				(xy -3.7 2.25) (xy -3.7 3.69) (xy -5.4 3.69) (xy -5.4 4.13) (xy 5.4 4.13) (xy 5.4 3.7) (xy 3.7 3.7)
+				(xy 3.7 0.5) (xy 5.4 0.5)
 			)
 		)
 	)
