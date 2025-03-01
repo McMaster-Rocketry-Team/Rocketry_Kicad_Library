@@ -419,4 +419,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8dbb474a-5a37-4c26-ae6f-686a46c9648b")
 	)
+	(model "${ROCKETRY_LIBRARY}/Rocketry_Kicad_Library/Rocketry_Manual.3dshapes/5037630491.stp"
+		(offset
+			(xyz -3 7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
