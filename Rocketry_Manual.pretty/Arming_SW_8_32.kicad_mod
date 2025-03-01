@@ -67,6 +67,28 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end -5.25 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "85acc5cc-6c57-4a45-a6a5-83c4cc849b1d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "85374150-c480-4389-ae3a-1a867f5d4018")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 12.2 0)
 		(unlocked yes)
@@ -86,16 +108,42 @@
 		(layers "*.Mask")
 		(uuid "0377c981-cda3-4542-9a9f-6112716313ad")
 	)
-	(pad "1" smd circle
-		(at 0 0)
-		(size 10.5 10.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "8ae51ae5-99bd-4dbd-a368-32ea6a86c87c")
+	(pad "1" smd custom
+		(at -4 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 4 0)
+				(end 8 0)
+				(width 2.5)
+				(fill no)
+			)
+		)
+		(uuid "a4df622f-e6a0-4704-a0cf-8d5f166ec3f1")
 	)
-	(pad "2" smd circle
-		(at 0 0)
-		(size 10.5 10.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "88bf24ad-449e-4dc9-900d-836135247893")
+	(pad "2" smd custom
+		(at 4 0)
+		(size 2 2)
+		(layers "B.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -4 0)
+				(end -8 0)
+				(width 2.5)
+				(fill no)
+			)
+		)
+		(uuid "923da247-bbb6-4ac5-b094-dc78d375be75")
 	)
 )
