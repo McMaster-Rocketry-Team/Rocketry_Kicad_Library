@@ -27280,4 +27280,69 @@
       )
     )
   )
+  (symbol "B3B-XH-A(LF)(SN)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "B3B-XH-A(LF)(SN)"
+      (id 1)
+      (at 0 2.54 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "Rocketry_Easyeda:CONN-TH_3P-P2.50_A2501WV2-3P"
+      (id 2)
+      (at 0 0.00 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/XH-Connectors_JST-Sales-America_B3B-XH-A-LF-SN_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html"
+      (id 3)
+      (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C144394"
+      (id 5)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "B3B-XH-A(LF)(SN)_0_1"
+      (rectangle
+        (start -5.08 2.54)
+        (end 5.08 -2.54)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -2.54 7.62 270)
+        (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 7.62 270)
+        (length 5.08)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 7.62 270)
+        (length 5.08)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 )
