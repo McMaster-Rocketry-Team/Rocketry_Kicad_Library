@@ -1,16 +1,21 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "1053091102"
+		(body_styles demorgan)
 		(pin_names
 			(offset 0.254)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19,6 +24,8 @@
 		)
 		(property "Value" "1053091102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27,40 +34,48 @@
 		)
 		(property "Footprint" "CON_1053091102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "1053091102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "1053091102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "1053091102_1_1"
@@ -382,14 +397,19 @@
 		(embedded_fonts no)
 	)
 	(symbol "1053131102"
+		(body_styles demorgan)
 		(pin_names
 			(offset 0.254)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -398,6 +418,8 @@
 		)
 		(property "Value" "1053131102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -406,40 +428,48 @@
 		)
 		(property "Footprint" "CON_1053131102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "1053131102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "1053131102"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "1053131102_1_1"
@@ -764,8 +794,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "B"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,6 +808,8 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,29 +818,35 @@
 		)
 		(property "Footprint" "Rocketry_Manual:BAT_1048P"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "2S_Battery_Holder_0_1"
@@ -857,42 +899,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 -16.51 90)
-				(length 2.54)
-				(name "Screw"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -16.51 90)
-				(length 2.54)
-				(name "Screw"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
 				(at 10.16 -2.54 180)
 				(length 2.54)
@@ -929,18 +935,59 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 1.27 -16.51 90)
+				(length 2.54)
+				(name "Screw"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.08 -16.51 90)
+				(length 2.54)
+				(name "Screw"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "430450418"
+		(body_styles demorgan)
 		(pin_names
 			(offset 0.254)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -949,6 +996,8 @@
 		)
 		(property "Value" "430450418"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -957,35 +1006,43 @@
 		)
 		(property "Footprint" "CONN_SD-43045-007_04_MOL"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "Rocketry_Manual://www.molex.com/en-us/products/part-detail-pdf/430450418?display=pdf"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,20 +1051,24 @@
 		)
 		(property "ki_keywords" "430450418"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "CONN_SD-43045-007_04_MOL"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "430450418_1_1"
@@ -1551,8 +1612,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1561,6 +1626,8 @@
 		)
 		(property "Value" "5037630491"
 			(at -1.016 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1569,35 +1636,43 @@
 		)
 		(property "Footprint" "CON_5037630491"
 			(at -0.762 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "5037630491"
 			(at 8.636 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,20 +1681,24 @@
 		)
 		(property "ki_keywords" "5037630491"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "CON_5037630491"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "5037630491_1_1"
@@ -2041,8 +2120,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,6 +2135,8 @@
 		)
 		(property "Value" "5055780271"
 			(at -7.62 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,160 +2146,192 @@
 		)
 		(property "Footprint" "Rocketry_Manual:MOLEX_5055780271"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Molex"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.9 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/5055780271/Molex/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "A"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5055780271/Molex/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "5055780271"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5532478&manufacturer=Molex&part_name=5055780271&search_term=5055780271"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "\n2.00mm Pitch, Micro-Lock Plus PCB Header, Single Row, Right-Angle, Surface Mount, Matte Tin Plating, Positive Lock, 2 Circuits, Black\n"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Molex"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "5055780271_0_0"
@@ -2473,8 +2590,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 16.51 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,6 +2605,8 @@
 		)
 		(property "Value" "53047-0510"
 			(at 16.51 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,81 +2616,97 @@
 		)
 		(property "Footprint" "Rocketry_Manual:530470510"
 			(at 16.51 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/530470210_sd.pdf"
 			(at 16.51 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Headers & Wire Housings VERTICAL HDR 5P"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Height" "4.2"
 			(at 16.51 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "538-53047-0510"
 			(at 16.51 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/53047-0510?qs=KC2ywxza1koXSHAr3dqR%2FQ%3D%3D"
 			(at 16.51 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
 			(at 16.51 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "53047-0510"
 			(at 16.51 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(symbol "53047-0510_1_1"
@@ -2583,52 +2722,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(length 5.08)
-				(name "5"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2655,16 +2758,52 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 0 -5.08 0)
 				(length 5.08)
-				(name "1"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2682,8 +2821,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,6 +2836,8 @@
 		)
 		(property "Value" "530470710"
 			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,150 +2847,180 @@
 		)
 		(property "Footprint" "Rocketry_Manual:MOLEX_530470710"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Molex"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "Rocketry_Manual://www.snapeda.com/parts/530470710/Molex/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "A"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "Rocketry_Manual://www.snapeda.com/parts/530470710/Molex/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "530470710"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "Conn Shrouded Header (4 Sides) HDR 7 POS 1.25mm Solder ST Top Entry Thru-Hole PicoBlade™ Tray"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Molex"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "530470710_0_0"
@@ -3218,8 +3393,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,6 +3408,8 @@
 		)
 		(property "Value" "534260210"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,70 +3419,84 @@
 		)
 		(property "Footprint" "Rocketry_Manual:MOLEX_534260210"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "B"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.7 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Molex"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "534260210_0_0"
@@ -3481,8 +3676,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,6 +3691,8 @@
 		)
 		(property "Value" "534260410"
 			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,70 +3702,84 @@
 		)
 		(property "Footprint" "Rocketry_Manual:MOLEX_534260410"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "B"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.7 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Molex"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "534260410_0_0"
@@ -3820,14 +4035,19 @@
 		(embedded_fonts no)
 	)
 	(symbol "BM04B-GHS-TBT"
+		(body_styles demorgan)
 		(pin_names
 			(offset 0.254)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3836,6 +4056,8 @@
 		)
 		(property "Value" "BM04B-GHS-TBT"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3844,35 +4066,43 @@
 		)
 		(property "Footprint" "CONN_BM04B-GHS-TBT_JST"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "BM04B-GHS-TBT"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,20 +4111,24 @@
 		)
 		(property "ki_keywords" "BM04B-GHS-TBT"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "CONN_BM04B-GHS-TBT_JST"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "BM04B-GHS-TBT_1_1"
@@ -4438,8 +4672,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 20.32 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4448,6 +4686,8 @@
 		)
 		(property "Value" "BMI270"
 			(at 20.32 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4456,35 +4696,43 @@
 		)
 		(property "Footprint" "BMI270_BOS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "BMI270"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,20 +4741,24 @@
 		)
 		(property "ki_keywords" "BMI270"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "BMI270_BOS BMI270_BOS-M BMI270_BOS-L"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "BMI270_0_1"
@@ -4684,17 +4936,35 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 40.64 -15.24 180)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 40.64 0 180)
+				(at 40.64 -12.7 180)
 				(length 7.62)
-				(name "SDX"
+				(name "INT2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4703,34 +4973,16 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -2.54 180)
+				(at 40.64 -10.16 180)
 				(length 7.62)
-				(name "SCX"
+				(name "OCSB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 40.64 -5.08 180)
-				(length 7.62)
-				(name "CSB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4757,16 +5009,34 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -10.16 180)
+				(at 40.64 -5.08 180)
 				(length 7.62)
-				(name "OCSB"
+				(name "CSB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "SCX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4775,34 +5045,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -12.7 180)
+				(at 40.64 0 180)
 				(length 7.62)
-				(name "INT2"
+				(name "SDX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 40.64 -15.24 180)
-				(length 7.62)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4820,8 +5072,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -22.8983 18.3186 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,6 +5087,8 @@
 		)
 		(property "Value" "CAM-M8Q-0"
 			(at -22.8741 -20.8408 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,130 +5098,156 @@
 		)
 		(property "Footprint" "Rocketry_Manual:LCC100P960X1400X210-31N"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "U-Blox America"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "\nseries RF Receiver BeiDou, GLONASS, GNSS, GPS, QZSS 1.575GHz -167dBm - On-Board, Chip Module\n"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "SMD-31 U-Blox America"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CAM-M8Q-0/U-Blox+America+Inc./view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CAM-M8Q-0/U-Blox+America+Inc./view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "CAM-M8Q-0"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=51163&manufacturer=U-Blox America&part_name=CAM-M8Q-0&search_term=cam-m8q"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "UBlox"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "CAM-M8Q-0_0_0"
@@ -4978,17 +5262,17 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -27.94 7.62 0)
+			(pin power_in line
+				(at 27.94 12.7 180)
 				(length 5.08)
-				(name "LNA_EN"
+				(name "VCC_IO"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "30"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4996,107 +5280,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -27.94 5.08 0)
+			(pin passive line
+				(at 27.94 -7.62 180)
 				(length 5.08)
-				(name "RF_IN"
+				(name "RSRVD1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "17"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -27.94 2.54 0)
-				(length 5.08)
-				(name "RXD/SPI_MOSI"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -27.94 0 0)
-				(length 5.08)
-				(name "~{RESET_N}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -27.94 -2.54 0)
-				(length 5.08)
-				(name "EXTINT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -27.94 -5.08 0)
-				(length 5.08)
-				(name "DSEL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -27.94 -7.62 0)
-				(length 5.08)
-				(name "SCL/SPI_CLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5123,16 +5317,16 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 15.24 180)
+				(at 27.94 -15.24 180)
 				(length 5.08)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "9"
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5141,16 +5335,52 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 12.7 180)
+				(at 27.94 -15.24 180)
 				(length 5.08)
-				(name "VCC_IO"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -27.94 -7.62 0)
+				(length 5.08)
+				(name "SCL/SPI_CLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 -2.54 0)
+				(length 5.08)
+				(name "EXTINT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5176,107 +5406,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 27.94 5.08 180)
+			(pin power_in line
+				(at 27.94 15.24 180)
 				(length 5.08)
-				(name "RF_OUT"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "16"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 2.54 180)
-				(length 5.08)
-				(name "TXD/SPI_MISO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 0 180)
-				(length 5.08)
-				(name "TIMEPULSE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -5.08 180)
-				(length 5.08)
-				(name "SAFEBOOT_N"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -7.62 180)
-				(length 5.08)
-				(name "RSRVD1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -10.16 180)
-				(length 5.08)
-				(name "RSRVD2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "28"
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5392,6 +5532,42 @@
 					)
 				)
 			)
+			(pin output line
+				(at 27.94 5.08 180)
+				(length 5.08)
+				(name "RF_OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 5.08 0)
+				(length 5.08)
+				(name "RF_IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 27.94 -15.24 180)
 				(length 5.08)
@@ -5421,6 +5597,24 @@
 					)
 				)
 				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 -5.08 0)
+				(length 5.08)
+				(name "DSEL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5464,6 +5658,78 @@
 					)
 				)
 			)
+			(pin input line
+				(at -27.94 0 0)
+				(length 5.08)
+				(name "~{RESET_N}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -5.08 180)
+				(length 5.08)
+				(name "SAFEBOOT_N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 2.54 180)
+				(length 5.08)
+				(name "TXD/SPI_MISO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 2.54 0)
+				(length 5.08)
+				(name "RXD/SPI_MOSI"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 27.94 -15.24 180)
 				(length 5.08)
@@ -5475,6 +5741,60 @@
 					)
 				)
 				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -10.16 180)
+				(length 5.08)
+				(name "RSRVD2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "TIMEPULSE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 7.62 0)
+				(length 5.08)
+				(name "LNA_EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5500,42 +5820,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 27.94 -15.24 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -15.24 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -5546,8 +5830,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 20.32 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5556,6 +5844,8 @@
 		)
 		(property "Value" "E22-900MM22S"
 			(at 20.32 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5564,35 +5854,43 @@
 		)
 		(property "Footprint" "E22-900MM22S_BYT"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "E22-900MM22S"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,20 +5899,24 @@
 		)
 		(property "ki_keywords" "E22-900MM22S"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "E22-900MM22S_BYT E22-900MM22S_BYT-M E22-900MM22S_BYT-L"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "E22-900MM22S_0_1"
@@ -5846,17 +6148,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 40.64 0 180)
+			(pin output line
+				(at 40.64 -22.86 180)
 				(length 7.62)
-				(name "DIO1"
+				(name "BUSY"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5864,71 +6166,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 40.64 -2.54 180)
+			(pin output line
+				(at 40.64 -20.32 180)
 				(length 7.62)
-				(name "DIO2"
+				(name "MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 40.64 -5.08 180)
-				(length 7.62)
-				(name "DIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 40.64 -7.62 180)
-				(length 7.62)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 40.64 -10.16 180)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5937,16 +6185,16 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -12.7 180)
+				(at 40.64 -17.78 180)
 				(length 7.62)
-				(name "SCK"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5973,16 +6221,16 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -17.78 180)
+				(at 40.64 -12.7 180)
 				(length 7.62)
-				(name "MOSI"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5990,17 +6238,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 40.64 -20.32 180)
+			(pin power_out line
+				(at 40.64 -10.16 180)
 				(length 7.62)
-				(name "MISO"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6008,17 +6256,71 @@
 					)
 				)
 			)
-			(pin output line
-				(at 40.64 -22.86 180)
+			(pin no_connect line
+				(at 40.64 -7.62 180)
 				(length 7.62)
-				(name "BUSY"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "DIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "DIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "DIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6036,8 +6338,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at -5.0835 2.4159 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,6 +6353,8 @@
 		)
 		(property "Value" "ESDA25P35-1U1M"
 			(at -5.0854 -4.9611 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,150 +6364,180 @@
 		)
 		(property "Footprint" "Rocketry_Manual:TVS_ESDA25P35-1U1M"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "UDFN-2 STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "Rocketry_Manual://www.snapeda.com/parts/ESDA25P35-1U1M/STMicroelectronics/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "2"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "Rocketry_Manual://www.snapeda.com/parts/ESDA25P35-1U1M/STMicroelectronics/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "ESDA25P35-1U1M"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "41V Clamp 35A (8/20µs) Ipp Tvs Diode Surface Mount 1610"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "ESDA25P35-1U1M_0_0"
@@ -6276,16 +6614,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at 5.08 0 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "C"
+				(number "A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6294,16 +6632,16 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at -5.08 0 0)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "A"
+				(number "C"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6321,8 +6659,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at -5.08 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,6 +6674,8 @@
 		)
 		(property "Value" "ESDA25W"
 			(at -5.08 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,160 +6685,192 @@
 		)
 		(property "Footprint" "Rocketry_Manual:SOT65P210X110-3N"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "SOT-323 STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "Rocketry_Manual://www.snapeda.com/parts/ESDA25W/STMicroelectronics/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "2"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "Rocketry_Manual://www.snapeda.com/parts/ESDA25W/STMicroelectronics/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "ESDA25W"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Purchase-URL" "Rocketry_Manual://www.snapeda.com/api/url_track_click_mouser/?unipart_id=274587&manufacturer=STMicroelectronics&part_name=ESDA25W&search_term=esda25w"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "- Clamp - Ipp Tvs Diode Surface Mount SOT-323-5"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "ESDA25W_0_0"
@@ -6788,7 +7164,7 @@
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6806,7 +7182,7 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6824,7 +7200,7 @@
 			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6842,6 +7218,783 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ESP32-C6-DEVKITC-1-N8"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -15.24 23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESP32-C6-DEVKITC-1-N8"
+			(at -15.24 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Rocketry_Manual:MODULE_ESP32-C6-DEVKITC-1-N8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "The ESP32-C6-DEVKITC-1-N8 from Espressif Systems is a development board designed for RF, RFID, and wireless applications. Built around the ESP32-C6-WROOM-1 module, it supports multiple connectivity options including 802.11 b/g/n/ax Wi-Fi, Bluetooth® (BLE), and 802.15.4 for Thread and Zigbee® protocols. The board is powered by the ESP32-C6 chip with 8MB SPI flash, offering advanced processing power and efficient memory management. It features GPIO ports for extensive interfacing, along with a USB Type-C™ to UART port for power and communication. The board also includes a USB-to-UART bridge, pin header, and boot/reset buttons, operating at 3.3V with a 5V to 3.3V power regulator. This development board is ideal for exploring a wide range of wireless applications, including IoT, smart home devices, and RF communication projects."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Espressif Systems"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "Rocketry_Manual://www.snapeda.com/parts/ESP32-C6-DEVKITC-1-N8/Espressif+Systems/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "Rocketry_Manual://www.snapeda.com/parts/ESP32-C6-DEVKITC-1-N8/Espressif+Systems/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ESP32-C6-DEVKITC-1-N8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Espressif Systems"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "ESP32-C6-DEVKITC-1-N8_0_0"
+			(rectangle
+				(start -15.24 -20.32)
+				(end 15.24 22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -20.32 20.32 0)
+				(length 5.08)
+				(name "ESP_3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 17.78 0)
+				(length 5.08)
+				(name "CHIP_PU"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 15.24 0)
+				(length 5.08)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 12.7 0)
+				(length 5.08)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 10.16 0)
+				(length 5.08)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 7.62 0)
+				(length 5.08)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 5.08 0)
+				(length 5.08)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 2.54 0)
+				(length 5.08)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 0 0)
+				(length 5.08)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -2.54 0)
+				(length 5.08)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -5.08 0)
+				(length 5.08)
+				(name "GPIO11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -7.62 0)
+				(length 5.08)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -10.16 0)
+				(length 5.08)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -12.7 0)
+				(length 5.08)
+				(name "VCC_5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -15.24 0)
+				(length 5.08)
+				(name "GND_J1_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -20.32 -17.78 0)
+				(length 5.08)
+				(name "NC_J1_16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J1_16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 20.32 180)
+				(length 5.08)
+				(name "GND_J3_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 17.78 180)
+				(length 5.08)
+				(name "UART_TXD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 15.24 180)
+				(length 5.08)
+				(name "UART_RXD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 12.7 180)
+				(length 5.08)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 10.16 180)
+				(length 5.08)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 7.62 180)
+				(length 5.08)
+				(name "GPIO22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 5.08 180)
+				(length 5.08)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 2.54 180)
+				(length 5.08)
+				(name "GPIO20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "GPIO19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -5.08 180)
+				(length 5.08)
+				(name "GPIO9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -7.62 180)
+				(length 5.08)
+				(name "GND_J3_12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -10.16 180)
+				(length 5.08)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -12.7 180)
+				(length 5.08)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -15.24 180)
+				(length 5.08)
+				(name "GND_J3_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 -17.78 180)
+				(length 5.08)
+				(name "NC_J3_16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J3_16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LSM6DSV32XTR"
 		(pin_names
 			(offset 0.254)
@@ -6849,8 +8002,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 33.02 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6859,6 +8016,8 @@
 		)
 		(property "Value" "LSM6DSV32XTR"
 			(at 33.02 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6867,49 +8026,59 @@
 		)
 		(property "Footprint" "Rocketry_Manual:LGA-14L_2p5X3p0X0p86_STM"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "LSM6DSV32XTR"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "LSM6DSV32XTR"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "LGA-14L_2p5X3p0X0p86_STM LGA-14L_2p5X3p0X0p86_STM-M LGA-14L_2p5X3p0X0p86_STM-L"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LSM6DSV32XTR_0_1"
@@ -7087,17 +8256,35 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 66.04 0 180)
+			(pin power_in line
+				(at 66.04 -15.24 180)
 				(length 7.62)
-				(name "SDA"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 66.04 -12.7 180)
+				(length 7.62)
+				(name "INT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7106,34 +8293,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 66.04 -2.54 180)
+				(at 66.04 -10.16 180)
 				(length 7.62)
-				(name "SCL"
+				(name "OCS_AUX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 66.04 -5.08 180)
-				(length 7.62)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7160,16 +8329,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 66.04 -10.16 180)
+				(at 66.04 -5.08 180)
 				(length 7.62)
-				(name "OCS_AUX"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7177,17 +8346,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 66.04 -12.7 180)
+			(pin unspecified line
+				(at 66.04 -2.54 180)
 				(length 7.62)
-				(name "INT2"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7195,17 +8364,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 66.04 -15.24 180)
+			(pin unspecified line
+				(at 66.04 0 180)
 				(length 7.62)
-				(name "VDD"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7227,8 +8396,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
 			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,6 +8410,8 @@
 		)
 		(property "Value" "RLB1314-102KL (THT 1mH)"
 			(at 1.27 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,47 +8420,57 @@
 		)
 		(property "Footprint" "Rocketry_Manual:RLB1314-102KL (THT 1mH)"
 			(at 0.635 -5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
 			(at 0.254 2.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "inductor 10mH"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RLB1314-102KL (THT 1mH)_0_1"
@@ -7385,8 +8570,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "PS"
 			(at -12.7039 8.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,6 +8585,8 @@
 		)
 		(property "Value" "RS3E-0505S_H3"
 			(at -12.7014 -10.1627 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,150 +8596,180 @@
 		)
 		(property "Footprint" "Rocketry_Manual:CONV_RS3E-0505S_H3"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Recom Power"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "11.35 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "SIP-8 RECOM"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RS3E-0505S/H3/Recom+Power/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "0/2021"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RS3E-0505S/H3/Recom+Power/view-part/?ref=snap"
 			(at 4.826 0.508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "RS3E-0505S/H3"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "\n                        \n                            Isolated Module DC DC Converter 1 Output 5V - - - 600mA 4.5V - 9V Input\n                        \n"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Recom Power"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "RS3E-0505S_H3_0_0"
@@ -7561,6 +8782,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "-VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 			(pin input line
@@ -7599,17 +8838,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -5.08 0)
+			(pin no_connect line
+				(at 17.78 0 180)
 				(length 5.08)
-				(name "-VIN"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -7635,17 +8874,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 0 180)
+			(pin output line
+				(at 17.78 -5.08 180)
 				(length 5.08)
-				(name "NC"
+				(name "-VOUT"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -7671,24 +8910,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 -5.08 180)
-				(length 5.08)
-				(name "-VOUT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -7703,8 +8924,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
 			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,6 +8938,8 @@
 		)
 		(property "Value" "SBCP-80HY102H_(1mH_THT)"
 			(at 0 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,47 +8948,57 @@
 		)
 		(property "Footprint" "Rocketry_Manual:SBCP-80HY102H (1mH THT)"
 			(at 0.254 -4.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
 			(at 0.254 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "inductor choke coil reactor magnetic"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SBCP-80HY102H_(1mH_THT)_0_1"
@@ -7816,24 +9053,6 @@
 		)
 		(symbol "SBCP-80HY102H_(1mH_THT)_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 3.81 0 180)
 				(length 1.27)
 				(name "1"
@@ -7851,6 +9070,292 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SEN-13879"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SEN-13879"
+			(at 0.508 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "SEN-13879"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SEN-13879_0_1"
+			(rectangle
+				(start -5.08 -1.27)
+				(end 10.16 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+		)
+		(symbol "SEN-13879_1_1"
+			(pin input line
+				(at -7.62 -3.81 0)
+				(length 2.54)
+				(name "E+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -6.35 0)
+				(length 2.54)
+				(name "E-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -8.89 0)
+				(length 2.54)
+				(name "A-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -11.43 0)
+				(length 2.54)
+				(name "A+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -15.24 0)
+				(length 2.54)
+				(name "B-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -17.78 0)
+				(length 2.54)
+				(name "B+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -3.81 180)
+				(length 2.54)
+				(name "DT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -6.35 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -12.7 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -15.24 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -7861,8 +9366,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at -8.89 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,6 +9381,8 @@
 		)
 		(property "Value" "STL6P3LLH6"
 			(at -8.89 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,150 +9392,180 @@
 		)
 		(property "Footprint" "Rocketry_Manual:TRANS_STL6P3LLH6"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "Rocketry_Manual://www.snapeda.com/parts/STL6P3LLH6/STMicroelectronics/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "4"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "Rocketry_Manual://www.snapeda.com/parts/STL6P3LLH6/STMicroelectronics/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "STL6P3LLH6"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "P-Channel 30 V 6A (Tc) 2.9W (Tc) Surface Mount PowerFlat™ (3.3x3.3)"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "STL6P3LLH6_0_0"
@@ -8267,27 +9808,9 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 2.54 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 5.08 270)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8306,7 +9829,7 @@
 				(at 2.54 5.08 270)
 				(length 2.54)
 				(hide yes)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8325,7 +9848,7 @@
 				(at 2.54 5.08 270)
 				(length 2.54)
 				(hide yes)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8341,9 +9864,27 @@
 				)
 			)
 			(pin passive line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8368,8 +9909,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -12.7 10.668 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,6 +9924,8 @@
 		)
 		(property "Value" "TPS259540DSGR"
 			(at -12.7 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,160 +9935,192 @@
 		)
 		(property "Footprint" "Rocketry_Manual:SON50P200X200X80-9N"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Texas Instruments"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "WSON-8 Texas Instruments"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS259540DSGR/Texas+Instruments/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "C"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS259540DSGR/Texas+Instruments/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "102614"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "TPS259540DSGR"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "\n                        \n                            2.7-V to 18-V, 34mΩ, 0.5-4A eFuse with over voltage protection in small WSON package\n                        \n"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "TPS259540DSGR_0_0"
@@ -8556,35 +10135,17 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -17.78 7.62 0)
+			(pin bidirectional line
+				(at -17.78 -2.54 0)
 				(length 5.08)
-				(name "IN"
+				(name "DVDT"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 7.62 0)
-				(length 5.08)
-				(name "IN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8610,17 +10171,35 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -2.54 0)
+			(pin input line
+				(at -17.78 7.62 0)
 				(length 5.08)
-				(name "DVDT"
+				(name "IN"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8728,8 +10307,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -12.7 13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,6 +10322,8 @@
 		)
 		(property "Value" "TPS259814ARPWR"
 			(at -12.7 -13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,160 +10333,192 @@
 		)
 		(property "Footprint" "Rocketry_Manual:IC_TPS259814ARPWR"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Texas Instruments"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "VFQFN-10 Texas Instruments"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS259814ARPWR/Texas+Instruments/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "A"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS259814ARPWR/Texas+Instruments/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "TPS259814ARPWR"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12148840&manufacturer=Texas Instruments&part_name=TPS259814ARPWR&search_term=tps259814arpwr"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "\n2.7-V to 16-V, 10-A, 6-mΩ eFuse with transient overcurrent blanking timer\n"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "TPS259814ARPWR_0_0"
@@ -8914,24 +10531,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin power_in line
-				(at -17.78 10.16 0)
-				(length 5.08)
-				(name "IN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -8963,24 +10562,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 10.16 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9024,6 +10605,42 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 10.16 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 17.78 0 180)
 				(length 5.08)
@@ -9035,6 +10652,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9078,24 +10713,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -10.16 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -9106,8 +10723,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "PS"
 			(at -15.24 8.382 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,6 +10738,8 @@
 		)
 		(property "Value" "TRN_3-0511SM"
 			(at -15.494 -10.414 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,150 +10749,180 @@
 		)
 		(property "Footprint" "Rocketry_Manual:CONV_TRN_3-0511SM"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Traco Power"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "SMD-7 Traco Power"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TRN%203-0511SM/Traco+Power/view-part/?ref=eda"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "September 30, 2020"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TRN%203-0511SM/Traco+Power/view-part/?ref=snap"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "TRN 3-0511SM"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "\n                        \n                            3 Watt DC/DC converter, industrial, 2:1 input, regulated, compact design, 1600 VDC isolation, encapsulated, SMD package\n                        \n"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Traco Power"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(symbol "TRN_3-0511SM_0_0"
@@ -9285,60 +10938,6 @@
 				)
 			)
 			(pin input line
-				(at -20.32 5.08 0)
-				(length 5.08)
-				(name "+VIN_(VCC)"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -20.32 0 0)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -20.32 0 0)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -20.32 -5.08 0)
 				(length 5.08)
 				(name "-VIN_(GND)"
@@ -9349,6 +10948,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 5.08 0)
+				(length 5.08)
+				(name "+VIN_(VCC)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9392,6 +11009,42 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -20.32 0 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -20.32 0 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -9402,8 +11055,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -10.16 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,6 +11070,8 @@
 		)
 		(property "Value" "W3012"
 			(at 12.7 12.7 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,30 +11081,36 @@
 		)
 		(property "Footprint" "Rocketry_Manual:W3012-ANT-PKG"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "W3012_0_0"
@@ -9532,24 +11197,6 @@
 					(type none)
 				)
 			)
-			(pin power_in line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "GND_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -12.7 2.54 0)
 				(length 2.54)
@@ -9561,6 +11208,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
